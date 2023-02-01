@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Basket Ball ScoreBoard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="txt">
+                <h1>Score-Board</h1>
+            </div>
+            <div class="scoreboard">
+        <div class="team-container">
+            <div class="txt">
+                <h2>Home</h2>
+            </div>
+            <div class="one">
+                <p class="goal" id="home-goal">0</p>
+                <p class="goal-shadow">000</p>
+            </div>
+
+            <div class="two">
+            <button class="btn"  id="one-pt" onclick="homeaddone()">+1</button>
+            <button class="btn"  id="two-pts" onclick="homeaddtwo()">+2 </button>
+            <button class="btn"  id="three-pts" onclick="homeaddthree()">+3</button>
+             </div>
+            </div>
+        
+            <div class="team-container">
+                <div class="txt">
+                    <h2>Guest</h2>
+                </div>
+                <div class="one">
+                    <p class="goal" id="guest-goal">0</p>
+                    <p class="goal-shadow">000</p>
+                </div>
+                <div class="two">
+                    <button class="btn"  id="one-pt"  onclick="guestaddone()">+1  </button>
+                    <button class="btn"  id="two-pts"  onclick="guestaddtwo()">+2  </button>
+                    <button class="btn"  id="three-pts"  onclick="guestaddthree()">+3  </button>
+                     </div>
+            </div>
+        </div>
+    </div>    
+
+    <footer>
+        <p class="footer">Made by <a href="https://github.com/areebey" target="_blank">Areeb Rafiq</a></p>
+        <p class="footer">This made as part of the JavaScript Course which is provided by <a href="/">Scrimba</a></p>
+     </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
